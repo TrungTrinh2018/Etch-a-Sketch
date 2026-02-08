@@ -1,14 +1,14 @@
 #container {
   display: flex;
-  flex-wrap: wrap; /* Allows squares to wrap to the next line */
-  width: 600px; /* Fixed width as per instructions */
+  flex-wrap: wrap;
+  width: 600px;
   height: 600px;
   border: 5px solid black;
   margin: 0 auto;
 }
 
 .square {
-  box-sizing: border-box; /* Keeps borders from breaking the grid */
+  box-sizing: border-box;
   border: 0.1px solid #eee;
 }
 
